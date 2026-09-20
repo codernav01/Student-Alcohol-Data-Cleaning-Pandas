@@ -1,102 +1,39 @@
-> **Legacy learning project.** Kept for learning history; this repository is not part of my current featured Data Analyst portfolio. See my current work on my [GitHub profile](https://github.com/codernav01).
+> **Foundations / learning-history project.** Preserved to show progression from basic Pandas data preparation into more advanced analytics workflows.
 
-# 📊 Student Alcohol Data Cleaning & Preprocessing Project
+# Student Data Cleaning & Transformation — Pandas
 
-## 🔹 Project Overview
-This project focuses on **data cleaning, preprocessing, and transformation** of student alcohol consumption datasets using **Python and Pandas**.
+## Purpose
 
-The main objective is to convert raw datasets into a **clean, structured, and analysis-ready format** by applying industry-standard data wrangling techniques. This project reflects real-world data preparation tasks performed by Data Analysts and Data Scientists.
+This notebook practises data cleaning, dataset merging, categorical standardization, simple feature engineering, and tabular transformation using Python and Pandas.
 
----
+## Data
 
-## 🎯 Objectives
-- Perform **data cleaning and preprocessing**
-- Merge multiple datasets into a unified dataset
-- Apply **feature engineering techniques**
-- Standardize and transform data
-- Prepare dataset for **EDA and machine learning**
+Two student datasets are included:
 
----
+- `studentmat.xlsx`
+- `studentpor.xlsx`
 
-## 📂 Dataset Information
-The project uses two datasets:
+They contain demographic, academic, social, and behavioural variables.
 
-- `student-mat.xlsx` → Mathematics students data  
-- `student-por.xlsx` → Portuguese students data  
+## Skills Practised
 
-These datasets include:
-- Student demographics
-- Academic performance
-- Social and behavioral attributes
-- Alcohol consumption patterns
+- loading and inspecting tabular data
+- merging datasets
+- standardizing categorical fields
+- transforming columns
+- creating derived fields
+- preparing data for later EDA
 
----
+## Repository Structure
 
-## ⚙️ Key Features
+```text
+Student-Alcohol-Data-Cleaning-Pandas/
+├── README.md
+├── Student-Alcohol-Data-Cleaning-Project.ipynb
+├── studentmat.xlsx
+└── studentpor.xlsx
+```
 
-### ✔️ Data Merging
-- Combined both datasets into a single dataframe
-- Maintained consistency across common columns
+## Portfolio Context
 
-### ✔️ Data Cleaning
-- Standardized categorical data
-- Capitalized string columns
-- Removed inconsistencies and ensured uniform structure
-
-### ✔️ Feature Engineering
-- Created a new column: `legal_drinker`
-- Applied custom logic based on age
-
-### ✔️ Data Transformation
-- Scaled numeric columns (multiplied by 10 for demonstration purposes)
-- Applied transformations to simulate real-world preprocessing
-
----
-
-## 🛠️ Tech Stack
-- **Language:** Python  
-- **Libraries:** Pandas, NumPy  
-- **Environment:** Jupyter Notebook  
-
----
-
-## 🔄 Project Workflow
-1. Data Loading  
-2. Data Inspection  
-3. Data Cleaning  
-4. Data Merging  
-5. Feature Engineering  
-6. Data Transformation  
-7. Final Dataset Preparation  
-
----
-
-## 📈 Use Cases
-- Exploratory Data Analysis (EDA)
-- Predictive Modeling
-- Student Behavior Analysis
-- Alcohol Consumption Insights
-
----
-
-## 📚 Key Learnings
-- Hands-on experience with **data preprocessing**
-- Efficient use of **Pandas for data manipulation**
-- Understanding of **feature engineering techniques**
-- Real-world **data transformation workflow**
-
----
-
-## 🚀 Future Improvements
-- Handle missing values more effectively
-- Perform advanced feature engineering
-- Add visualizations (Matplotlib / Seaborn)
-- Build machine learning models
-
----
-
-## 👨‍💻 Author
-**Navjot Singh**  
-Aspiring Data Scientist | Python & Data Analysis Enthusiast
-
----
+This repository is not presented as my current analytical ceiling. It is kept public because it documents the earlier data-cleaning stage of my learning path.
